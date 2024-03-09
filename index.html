@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TechZone</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="title">
+            <h1 id="title">Formulario servicios online</h1>
+            <p id="description">Cuéntanos tu experiencia con el servicio de TechZone.</p>
+        </div>
+        
+        <div class="container">
+            <form id="survey-form" class="containerForm">
+                <div class="form-group">
+                    <label id="name-label" class="info">Nombre<br><input id="name" type="text" placeholder="Nombre completo " required></label>
+                </div>
+                                
+                <div class="form-group">
+                    <label id="email-label" class="info" >Email<br><input id="email" type="email"  placeholder="Escribe un email valido" required>
+                </div>
+                        
+                <div class="form-group">
+                    <label id="number-label" for="number" class="info">Edad<br><input id="number" type="number" min="18" max="120" placeholder="Tu edad" ></label>
+                </div>
+                        
+                <div class="form-group">
+                    <label for="dropdown" >Qué producto adquiriste ?<br>
+                    <select id="dropdown" style="color: black;">
+                    <option value="" disabled selected>(Seleccionar uno)</option>
+                    <option value="1" >Host</option>
+                    <option value="2">Web</option>
+                    </select>
+                    </label>
+                </div>
+                        
+                        
+                <div class="form-group">
+                    <p id="user-recommend">Recomendarías este servicio a un amigo ?</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="Abolutamente" >
+                    <input id="Abolutamente" name="Recomendacion" type="radio" class="user-recommend" value="1" checked> Absolutamente</input>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="Tal-vez">
+                    <input id="Tal-vez" name="Recomendacion" type="radio" class="user-recommend" value="2"> Tal vez</input>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="Jamas">
+                    <input id="Jamas" name="Recomendacion" type="radio" class="user-recommend" value="3"> Jamás</input>
+                    </label>
+                </div>
+
+                <div class="form-group" id="div-comment">
+                    <p class="textarea">¿Algún comentario o sugerencia?</p>
+                    <textarea name="Comentario" id="comment-box" cols="71" rows="10" placeholder=" Escribe un comentario o sugerencia..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="terms-and-conditions" >
+                        <input id="terms-and-conditions" name="terms" type="checkbox" class="terms" value="terms">Al marcar esta casilla, confirmo que he leído y acepto los <a href="#" id="terms">Términos y condiciones del servicio</a>.</input>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="data" class="authData">
+                    <input id="data" name="Recomendacion" type="checkbox" class="perm-data" value="perm">Al marcar esta casilla, consiento el uso de mis datos con fines estadísticos, reconociendo que se utilizarán de manera confidencial y exclusivamente para análisis internos.</input>
+                    </label>
+                </div>
+
+                <div id="Enviar">
+                    <button type="submit" id="submit" class="submit-button">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: #242422;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+.title {
+    color: #FDFBF6;
+    text-align: center;
+    
+}
+
+.title h1, p{
+    margin: 0 auto 8px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #FDFBF6;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+.containerForm {
+    width: 80%;
+    max-width: 100%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+#user-recommend {
+    margin: 16px 0 0;
+}
+
+#div-comment {
+    width: 100%;
+}
+#comment-box{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px ;
+    border: none;
+    outline: 1px solid;
+    color: black;
+    padding: 0;
+}
+
+#terms {
+    color: rgb(45, 45, 126);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#terms:hover{
+    text-decoration: underline;
+}
+
+#submit {
+    height: 50px;
+    width: 100%;
+    margin: 5px auto;
+    border-radius: 3px;
+    border: 1px solid ;
+    background-color: rgba(132, 247, 109, 0.466);
+}
+
+#submit:hover {
+    background-color: rgba(132, 247, 109, 0.70);
+}
